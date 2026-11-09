@@ -19,10 +19,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Neos\\JsonSchema\\": "Libraries/jsonschema/src/",
-            "Neos\\Schematic\\": "Libraries/schematic/src/",
+            "Neos\\OpenApi\\FlowAdapter\\": "Classes/",
             "Neos\\OpenApi\\": "Libraries/openapi/src/",
-            "Neos\\OpenApi\\FlowAdapter\\": "Classes/"
+            "Neos\\Schematic\\": "Libraries/schematic/src/",
+            "Neos\\JsonSchema\\": "Libraries/jsonschema/src/"
         }
     },
     "extra": {

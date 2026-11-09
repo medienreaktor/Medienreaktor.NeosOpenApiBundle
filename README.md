@@ -32,7 +32,8 @@ The bundle can't be installed together with any of the upstream packages.
 ## How it differs from installing the packages separately
 
 - It is one Flow package with the FlowAdapter's package key, `Neos.OpenApi.FlowAdapter`. Settings, routes and
-  middlewares keep their names.
+  middlewares keep their names. The FlowAdapter's namespace comes first in `autoload.psr-4`, because the Neos
+  Composer installer names the package folder after the first one (`Packages/Application/Neos.OpenApi.FlowAdapter`).
 - Flow reflects every class of a Flow package. Installed separately, jsonschema, schematic and openapi are libraries
   that Flow doesn't reflect. [Configuration/Settings.Bundle.yaml](Configuration/Settings.Bundle.yaml) keeps it that
   way by including only the FlowAdapter's classes in object management.
