@@ -1,0 +1,7 @@
+# Flow reflects every class of a Flow package. Installed on their own, jsonschema, schematic and openapi are plain
+# libraries that Flow doesn't reflect, so only the FlowAdapter's classes are included here.
+Neos:
+  Flow:
+    object:
+      includeClasses:
+        'Neos.OpenApi.FlowAdapter': ['^Neos\\OpenApi\\FlowAdapter\\']

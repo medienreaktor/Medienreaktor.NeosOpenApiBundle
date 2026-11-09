@@ -1,0 +1,7 @@
+# The upstream packages this bundle contains, and the commits they're imported from.
+# Format: <name> <repository URL> <commit>
+# Change a commit (or run import-upstream.sh --latest) and run Build/import-upstream.sh to update.
+jsonschema https://github.com/neos/jsonschema 6e620839cc43fae5a1b71b712a9415946f242293
+schematic https://github.com/neos/schematic efebc0ce6b2afea123f22091f4746cd6fa7c5db0
+openapi https://github.com/neos/openapi 49ddde3708f5326a7c133f80d0b3ec856ab07f9e
+openapi-flowadapter https://github.com/bwaidelich/Neos.OpenApi.FlowAdapter f40a4842b362f1bf77fb4656e16cde22e73acf4b
